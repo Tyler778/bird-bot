@@ -1,5 +1,5 @@
 ## bird-bot
-#Discord Bird Bot
+Discord Bird Bot
 
 
 All Commands start with $
