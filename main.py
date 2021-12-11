@@ -3,13 +3,13 @@ import discord
 import requests
 import json
 from random import randrange
-from replit import db
+#from replit import db
 
 
 
-ebird_key = os.environ['ebirdkey']
-my_secret = os.environ['token']
-geo_key = os.environ['geocodingkey']
+ebird_key = 'g0spcp902dsg'
+my_secret = 'ODk4Mjg0NjI4MjY2MzQ0NDQ5.YWh-wA.zzKSe4rAmVTTHbcT5CZiHDguZGc'
+geo_key = 'AIzaSyA9J4pehWckTuM9zaBtG1Ge81dbT6foJFU'
 
 def get_coords(place):
   url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + place + '&key=' + geo_key
